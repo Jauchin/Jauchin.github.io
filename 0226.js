@@ -3,6 +3,8 @@ var leftAry = new Array();
 var i;
 var inputDigit1, inputDigit2, inputDigit3, inputDigit4;
 var tmp, tmp1, tmp2, tmp3, tmp4;
+var numberA, numberB;
+var answer;
 
 function start() {
     tmp = document.getElementById("display1");
@@ -13,22 +15,6 @@ function start() {
     tmp.innerHTML = "-";
     tmp = document.getElementById("display4");
     tmp.innerHTML = "-";
-
-}
-
-function input() {
-    var t = document.createElement("p");
-    t.innerHTML = tmp1.innerHTML + tmp2.innerHTML + tmp3.innerHTML + tmp4.innerHTML;
-    var s = document.getElementById("addP");
-    s.appendChild(t);
-
-
-    inputDigit1 = document.getElementById("display1");
-    inputDigit2 = document.getElementById("display2");
-    inputDigit3 = document.getElementById("display3");
-    inputDigit4 = document.getElementById("display4");
-
-
     for (i = 0; i < 10000; i++) {
         digit[0] = parseInt(i / 1000);
         digit[1] = parseInt(i / 100) % 10;
@@ -39,7 +25,50 @@ function input() {
         }
     }
 
-    alert("dfkdfkj");
+    answer = leftAry[Math.floor(Math.random() * leftAry.length)];
+    answer = parseInt(answer);
+    alert(answer);
+}
+
+function input() {
+    var t = document.createElement("p");
+    t.innerHTML = tmp1.innerHTML + tmp2.innerHTML + tmp3.innerHTML + tmp4.innerHTML;
+    var s = document.getElementById("addInput");
+    s.appendChild(t);
+
+    inputDigit1 = document.getElementById("display1");
+    inputDigit2 = document.getElementById("display2");
+    inputDigit3 = document.getElementById("display3");
+    inputDigit4 = document.getElementById("display4");
+
+    var guessInput = inputDigit1.innerHTML + inputDigit2.innerHTML + inputDigit3.innerHTML + inputDigit4.innerHTML;
+
+
+    guessInput = parseInt(guessInput);
+
+    /*
+
+    var isRepeat=true;
+
+    while (isRepeat) {
+        init();
+        guessInput = parseInt(guessInput);
+        if (leftAry.indexOf(guessInput) !== -1) {
+            isRepeat = false;
+        }
+    }
+
+    */
+    numberA = checkA(guessInput, answer);
+    numberB = checkB(guessInput, answer);
+
+    t = document.createElement("p");
+    t.innerHTML = numberA + "A" + numberB + "B";
+    s = document.getElementById("addResult");
+    s.appendChild(t);
+
+
+    // alert(numberA);
 }
 
 function zero() {
@@ -92,28 +121,6 @@ function init() {
 }
 window.onload = init;
 
-/*
-
-for (i = 0; i < 10000; i++) {
-    digit[0] = parseInt(i / 1000);
-    digit[1] = parseInt(i / 100) % 10;
-    digit[2] = parseInt(i / 10) % 10;
-    digit[3] = i % 10;
-    if (!((digit[0] == digit[1]) || (digit[0] == digit[2]) || (digit[0] == digit[3]) || (digit[1] == digit[2]) || (digit[1] == digit[3]) || (digit[2] == digit[3]))) {
-        leftAry.push(i);
-    }
-}
-
-var answer = 1234; // leftAry[Math.floor(Math.random() * leftAry.length)];
-
-var IsNotFound = true;
-while (IsNotFound) {
-    var guessInput = prompt("please Input No-repeat 4 digits", "");
-    guessInput = parseInt(guessInput);
-    if (leftAry.indexOf(guessInput) !== -1) {
-        IsNotFound = false;
-    }
-}
 
 
 var guessCount = 0;
@@ -132,11 +139,6 @@ function removeArray(guessInput, leftAry) {
         }
     }
 }
-
-//i = removeArray(guessInput, leftAry);
-//alert(leftAry.length);
-
-
 
 
 var m, n;
@@ -203,4 +205,4 @@ function checkB(m, n) {
     if (temp[3] == digit[2])
         counter++;
     return counter;
-} */
+}
