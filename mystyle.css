@@ -1,0 +1,117 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .pull-left {
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 15px 15px 15px 15px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 50px;
+}
+
+.navbar .pull-right {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    padding: 15px 15px 15px 15px;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    height: 50px;
+}
+
+.navbar 1 {
+    color: white;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.jumbotron {
+    background-image: url(images/intro-bg.jpg);
+    height: 600px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.jumbotron h1 {
+    position: relative;
+    top: 80px;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 110px;
+    text-align: center;
+    word-spacing: 0px;
+    letter-spacing: 1px;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.jumbotron p {
+    position: relative;
+    top: 100px;
+    font-weight: normal;
+    line-height: 41.6px;
+    text-align: center;
+    word-spacing: 0px;
+    font-family: Lora, Helvetica, Arial, sans-serif;
+    font-size: 26px;
+}
+
+.page2,
+.page3,
+.page4,
+.page4_1 {
+    position: relative;
+    top: -50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 600px;
+}
+
+.page2 h2,
+.page3 h2,
+.page4 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 0px 35px 0px;
+}
+
+.page2 p,
+.page3 p,
+.page4 p,
+.page4_1 p {
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0px 0px 35px 0px;
+}
+
+.linktext {
+    color: #42dca3;
+}
+
+.page3 {
+    background-image: url(images/downloads-bg.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+
+.page4_1 p {
+    text-align: center;
+}
+
+.page4_1 {
+    height: 50px;
+}

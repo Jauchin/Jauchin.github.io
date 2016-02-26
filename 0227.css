@@ -1,0 +1,25 @@
+.main {
+    background-color: #ccc;
+}
+
+.section1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.display {
+    float: left;
+    margin: 20px 30px 40px 30px;
+}
+
+.top {
+    clear: both;
+}
+
+.input {
+    text-align: left;
+}
+
+.result {
+    text-align: right;
+}

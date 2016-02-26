@@ -1,0 +1,21 @@
+.all {
+    background-image: url(images/bg.jpg);
+}
+
+.row1 {
+    height: 130px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+.nav {
+    text-align: center;
+    height: 50px;
+    background-color: white;
+    color: #9a9a9a;
+    display: inline;
+    font-size: 20px;
+}
+
+.li {}

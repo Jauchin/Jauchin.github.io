@@ -1,0 +1,353 @@
+@media screen and (min-width: 700px) {
+    * {
+        box-sizing: border-box;
+    }
+    [class*="col-"] {
+        float: left;
+    }
+    .row:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+    .nav_background {
+        background-color: black;
+        float: left;
+    }
+    .center {
+        width: 66%;
+        margin: 0 auto;
+    }
+    .nav {
+        float: left;
+    }
+    li {
+        list-style: none;
+        display: inline;
+        font-size: 15px;
+        line-height: 50px;
+        color: #AAA;
+        margin: 0px 20px 0px 0px;
+    }
+    .content1 {
+        background: white;
+        height: 700px;
+        width: 100%;
+    }
+    .section1 {
+        background: #eee;
+        height: 250px;
+        padding: 30px;
+        font-family: sans-serif;
+    }
+    h1 {
+        font-size: 40px;
+        position: relative;
+        top: 15px;
+    }
+    p {
+        font-size: 15px;
+        position: relative;
+        top: 20px;
+    }
+    button {
+        position: relative;
+        top: 30px;
+        background-color: #4682b4;
+        color: white;
+    }
+    button[class="2"] {
+        background-color: white;
+        color: black;
+    }
+    .text2 {
+        text-align: center;
+    }
+    .section2 {
+        position: relative;
+        top: 40px;
+    }
+    h3 {
+        padding: 10px;
+        font-family: sans-serif;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 400px) {
+    * {
+        box-sizing: border-box;
+    }
+    [class*="col-"] {
+        float: left;
+    }
+    .row:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .col-1 {
+        width: 100%;
+    }
+    .col-1 {
+        width: 100%;
+    }
+    .col-2 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 50%;
+    }
+    .col-5 {
+        width: 100%;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .col-7 {
+        width: 100%;
+    }
+    .col-8 {
+        width: 100%;
+    }
+    .col-9 {
+        width: 100%;
+    }
+    .col-10 {
+        width: 100%;
+    }
+    .col-11 {
+        width: 100%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+    .nav_background {
+        background-color: black;
+        float: left;
+    }
+    .center {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .nav {
+        float: left;
+    }
+    li {
+        list-style: none;
+        display: inline;
+        font-size: 10px;
+        line-height: 40px;
+        color: #AAA;
+        margin: 0px 10px 0px 0px;
+    }
+    .content1 {
+        background: white;
+        height: 700px;
+        width: 100%;
+    }
+    .section1 {
+        background: #eee;
+        height: 200px;
+        padding: 20px;
+        font-family: sans-serif;
+    }
+    h1 {
+        font-size: 30px;
+        position: relative;
+        top: 10px;
+    }
+    p {
+        font-size: 15px;
+        position: relative;
+        top: 15px;
+    }
+    button {
+        position: relative;
+        top: 30px;
+        background-color: #4682b4;
+        color: white;
+    }
+    button[class="2"] {
+        background-color: white;
+        color: black;
+    }
+    .text2 {
+        text-align: center;
+    }
+    .section2 {
+        position: relative;
+        top: 30px;
+    }
+    h3 {
+        padding: 10px;
+        font-family: sans-serif;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    * {
+        box-sizing: border-box;
+    }
+    [class*="col-"] {
+        float: left;
+    }
+    .row:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .col-1 {
+        width: 100%;
+    }
+    .col-1 {
+        width: 100%;
+    }
+    .col-2 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .col-5 {
+        width: 100%;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .col-7 {
+        width: 100%;
+    }
+    .col-8 {
+        width: 100%;
+    }
+    .col-9 {
+        width: 100%;
+    }
+    .col-10 {
+        width: 100%;
+    }
+    .col-11 {
+        width: 100%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+    .nav_background {
+        background-color: black;
+        float: left;
+    }
+    .center {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav {
+        float: left;
+    }
+    li {
+        list-style: none;
+        display: inline;
+        font-size: 15px;
+        line-height: 30px;
+        color: #AAA;
+        margin: 0px 15px 0px 0px;
+    }
+    .content1 {
+        background: white;
+        height: 600px;
+        width: 100%;
+    }
+    .section1 {
+        background: #eee;
+        height: 250px;
+        padding: 30px;
+        font-family: sans-serif;
+    }
+    h1 {
+        font-size: 30px;
+        position: relative;
+        top: 15px;
+    }
+    p {
+        font-size: 15px;
+        position: relative;
+        top: 20px;
+    }
+    button {
+        position: relative;
+        top: 30px;
+        background-color: #4682b4;
+        color: white;
+    }
+    button[class="2"] {
+        background-color: white;
+        color: black;
+    }
+    .text2 {
+        text-align: center;
+    }
+    .section2 {
+        position: relative;
+        top: 40px;
+    }
+    h3 {
+        padding: 10px;
+        font-family: sans-serif;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

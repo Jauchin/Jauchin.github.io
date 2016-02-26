@@ -1,0 +1,71 @@
+.nav a {
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}
+
+#title1 {
+    height: 500px;
+    background-image: url(../images/Kyoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title2 {
+    height: 600px;
+    background-image: url(https://placem.at/place?w=700);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title3 {
+    height: 600px;
+    background-image: url(https://placem.at/things?w=700);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title4 {
+    height: 600px;
+    background-image: url(https://placem.at/people?w=700);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title5 {
+    height: 600px;
+    background-image: url(https://placem.at/place?w=700);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 100px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 25px;
+}
+
+.container-fluid {
+    background-color: #eee;
+}
+
+.center {
+    width: 75%;
+    margin: 0 auto;
+}
